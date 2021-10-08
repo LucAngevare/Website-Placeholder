@@ -62,7 +62,7 @@ body {
 }
 
 #dice__btn {
-    background-color: #FE5F55;
+    background-color: aliceblue;
     margin-top: 200px;
     position: absolute;
     border: rgba(255, 255, 255, 0) 0px solid;
@@ -70,12 +70,11 @@ body {
     font-size: 20px;
     height: 60px;
     width: 150px;
-    color: aliceblue;
+    color: #333745;
 }
 
 .dice__side {
-    background-color: #FE5F55;
-    color: aliceblue;
+    background-color: aliceblue;
 }
 
 #dice__btn:hover {
