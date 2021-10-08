@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url('assets/fonts/ProductSans-BoldItalic.eot');
+    src: url('assets/fonts/ProductSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/ProductSans-BoldItalic.woff2') format('woff2'),
+        url('assets/fonts/ProductSans-BoldItalic.woff') format('woff'),
+        url('assets/fonts/ProductSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('assets/fonts/ProductSans-Italic.eot');
+    src: url('assets/fonts/ProductSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/ProductSans-Italic.woff2') format('woff2'),
+        url('assets/fonts/ProductSans-Italic.woff') format('woff'),
+        url('assets/fonts/ProductSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('assets/fonts/ProductSans-Bold.eot');
+    src: url('assets/fonts/ProductSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/ProductSans-Bold.woff2') format('woff2'),
+        url('assets/fonts/ProductSans-Bold.woff') format('woff'),
+        url('assets/fonts/ProductSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('assets/fonts/ProductSans-Regular.eot');
+    src: url('assets/fonts/ProductSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/ProductSans-Regular.woff2') format('woff2'),
+        url('assets/fonts/ProductSans-Regular.woff') format('woff'),
+        url('assets/fonts/ProductSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    width: 100%
+}
+
+body {
+    background-color: #333745;
+}
+
+.dice {
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+#dice__btn {
+    background-color: #FE5F55;
+    margin-top: 200px;
+    position: absolute;
+    border: rgba(255, 255, 255, 0) 0px solid;
+    font-family: 'Product Sans';
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    color: aliceblue;
+}
+
+.dice__side {
+    background-color: #FE5F55;
+    color: aliceblue;
+}
+
+#dice__btn:hover {
+    cursor: pointer;
+}
+
+h1 {
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Product Sans';
+    font-weight: bold;
+    color: aliceblue;
+    height: 200px;
+    width: 750px;
+}

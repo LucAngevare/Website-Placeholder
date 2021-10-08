@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animated 3D Dice Roller Example</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+    <link href="./css/dice.min.css" rel="stylesheet" type="text/css" />
+
+    <style>
+      *,
+      *:before,
+      *:after {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(45deg, #004b1a, #267a46);
+        margin: 0;
+        font-family: sans-serif;
+      }
+
+      .demo__button {
+        margin-top: 20px;
+      }
+
+      .demo__footer {
+        position: fixed;
+        bottom: 20px;
+      }
+
+      .demo__link {
+        color: #000;
+        text-decoration: none;
+      }
+
+      .demo__link:hover {
+        text-decoration: underline;
+      }
+      h1,p { color: #fff; }
+    </style>
+  </head>
+  <body>
+<h1>Animated 3D Dice Roller Example</h1>
+<div id="carbon-block"></div>
+<div><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<p>An animated virtual dice roller that allows you to roll dice for random numbers (from 1 to 6).</p>
+    <!-- Dice -->
+    <div class="dice__scene">
+      <div id="dice__cube" class="show-front">
+        <div class="dice__side dice__side--front"></div>
+    		<div class="dice__side dice__side--back"></div>
+    		<div class="dice__side dice__side--right"></div>
+    		<div class="dice__side dice__side--left"></div>
+    		<div class="dice__side dice__side--top"></div>
+    		<div class="dice__side dice__side--bottom"></div>
+      </div>
+    </div>
+
+    <audio preload="auto" id="dice__audio">
+    	<source src="./assets/sounds/dice-sound.mp3"></source>
+    </audio>
+    <!-- /Dice -->
+
+    <button class="demo__button" id="dice__btn">Roll the dice</button>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="./js/dice.js"></script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+try {
+  fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+    return true;
+  }).catch(function(e) {
+    var carbonScript = document.createElement("script");
+    carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+    carbonScript.id = "_carbonads_js";
+    document.getElementById("carbon-block").appendChild(carbonScript);
+  });
+} catch (error) {
+  console.log(error);
+}
+</script>
+  </body>
+</html>
